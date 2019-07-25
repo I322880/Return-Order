@@ -1,0 +1,22 @@
+[
+  {
+    "CustomerID": "TORTU",
+    "CompanyName": "Shakul Jugran"
+  },
+  {
+    "CustomerID": "ALFKI",
+    "CompanyName": "Rahul Rawat"
+  },
+  {
+    "CustomerID": "AROUT",
+    "CompanyName": "Jai"
+  },
+  {
+    "CustomerID": "BERGS",
+    "CompanyName": "Manpreet Kaur"
+  },
+  {
+    "CustomerID": "BOTTM",
+    "CompanyName": "Mahendra Singh"
+  }
+]

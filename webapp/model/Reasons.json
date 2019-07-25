@@ -1,0 +1,21 @@
+{
+	"ReturnReasons": [{
+		"RID": "R001",
+		"Name": "Quality Issue with Product"
+	}, {
+		"RID": "R002",
+		"Name": "Not as desired"
+	}, {
+		"RID": "R003",
+		"Name": "Changed my mind"
+	}, {
+		"RID": "R004",
+		"Name": "Not Needed Anymore"
+	}, {
+		"RID": "R005",
+		"Name": "Late Delivery"
+	}, {
+		"RID": "R006",
+		"Name": "Damaged Items"
+	}]
+}

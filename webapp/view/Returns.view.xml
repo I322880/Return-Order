@@ -1,0 +1,28 @@
+<mvc:View id="RetrunID" controllerName="sap.ui.demo.orderbrowser.controller.Returns" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Page showNavButton="true" navButtonPress="onNavBack">
+		<l:VerticalLayout class="sapUiContentPadding" width="100%">
+			<l:content>
+				<MessageStrip text="You have to ship returned items " showIcon="false" showCloseButton="false" class="sapUiMediumMarginBottom">
+					<Link text="why?" press="onReturn"/></MessageStrip>
+				<Label text="Choose Return Reasons :"/>
+				<MultiComboBox id="mb1" selectionChange="handleSelectionChange" selectionFinish="handleSelectionFinish" width="500px" enabled="true"
+					items="{ path: '/ReturnReasons', sorter: { path: 'Name'} }">
+					<core:Item key="{RID}" text="{Name}"/>
+				</MultiComboBox>
+				<Panel class="sapUiMediumMarginBottom">
+					<VBox>
+						<Label text="Additional Feedback:"/>
+						<TextArea rows="8"/>
+					</VBox>
+				</Panel>
+			</l:content>
+		</l:VerticalLayout>
+		<footer>
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+				<Button type="Accept" text="Accept" press="onChoose"/>
+			</OverflowToolbar>
+		</footer>
+	</Page>
+</mvc:View>
