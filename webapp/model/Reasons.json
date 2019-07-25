@@ -1,21 +1,24 @@
 {
 	"ReturnReasons": [{
 		"RID": "R001",
-		"Name": "Quality Issue with Product"
+		"Name": "Not as described"
 	}, {
 		"RID": "R002",
-		"Name": "Not as desired"
+		"Name": "Defective"
 	}, {
 		"RID": "R003",
-		"Name": "Changed my mind"
+		"Name": "Size too big"
 	}, {
 		"RID": "R004",
-		"Name": "Not Needed Anymore"
+		"Name": "Size too small"
 	}, {
 		"RID": "R005",
-		"Name": "Late Delivery"
+		"Name": "Late delivery"
 	}, {
 		"RID": "R006",
-		"Name": "Damaged Items"
+		"Name": "Changed my mind"
+	}, {
+		"RID": "R006",
+		"Name": "Others, please specify"
 	}]
 }

@@ -24,7 +24,7 @@ sap.ui.define([
 				type: 'Message',
 				content: [
 					new Text({
-						text: 'You have exceeded threshold of maximum Returns allowed for you.'
+						text: 'You have exceeded threshold of maximum returns allowed for you.'
 
 					}).addStyleClass("sapUiSmallMarginBeginEnd sapUiSmallMarginTop")
 

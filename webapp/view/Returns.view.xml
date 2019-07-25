@@ -3,8 +3,9 @@
 	<Page showNavButton="true" navButtonPress="onNavBack">
 		<l:VerticalLayout class="sapUiContentPadding" width="100%">
 			<l:content>
-				<MessageStrip text="Return Strategy Applied - Please ship returned items to us" showIcon="false" showCloseButton="false" class="sapUiMediumMarginBottom">
-					<Link text="why?" press="onReturn"/></MessageStrip>
+				<MessageStrip text="Return Strategy Applied - Please ship returned items to us." showIcon="false" type="Warning" showCloseButton="false"
+					class="sapUiMediumMarginBottom">
+					<Link text="Why am I seeing this?" press="onReturn"/></MessageStrip>
 				<Label text="Choose Return Reasons :"/>
 				<MultiComboBox id="mb1" selectionChange="handleSelectionChange" selectionFinish="handleSelectionFinish" width="500px" enabled="true"
 					items="{ path: '/ReturnReasons', sorter: { path: 'Name'} }">
