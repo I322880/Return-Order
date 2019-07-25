@@ -6,7 +6,8 @@ sap.ui.define([
 	'sap/m/Button',
 	'sap/m/Dialog',
 	'sap/m/Text',
-], function (BaseController, JSONModel, formatter, mobileLibrary, Button, Dialog, Text) {
+	'sap/m/MessageToast'
+], function (BaseController, JSONModel, formatter, mobileLibrary, Button, Dialog, Text, MessageToast) {
 	"use strict";
 
 	return BaseController.extend("sap.ui.demo.orderbrowser.controller.Returns", {
@@ -40,6 +41,10 @@ sap.ui.define([
 			});
 
 			dialog.open();
+		},
+		onApply: function() {
+			var msg = 'Return Request has been initiated';
+			MessageToast.show(msg);
 		}
 
 	});
